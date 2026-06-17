@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
+.notification-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.notification-card:hover {
+  transform: translateY(-2px);
+}
+
+.notification-card h3 {
+  color: #60a5fa;
+  margin-bottom: 10px;
+}
+
+.notification-card p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.notification-card small {
+  color: #cbd5e1;
+}
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #64748b;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+}
